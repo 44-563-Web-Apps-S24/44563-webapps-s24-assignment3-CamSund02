@@ -5,3 +5,55 @@
 
 <!--Made the image smaller, it was way to large as default-->
 <img src="Cameron at Beach.JPG" alt="Cameron at the Beach" width="20%">
+<hr>
+<h2>Things you should try</h2>
+<p>This is a table of books, songs and videos that I recommend people try out. Some of these Items may not be everyones cup of tea but I do enjoy them.</p>
+<table>
+    <thead>
+      <tr>
+        <th>Books</th>
+        <th>Songs</th>
+        <th>Videos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dune</td>
+        <td>King Kunta</td>
+        <td>Guardians of the Galaxy</td>
+      </tr>
+      <tr>
+        <td>Harry Potter</td>
+        <td>highway 95</td>
+        <td>Breaking Bad</td>
+      </tr>
+      <tr>
+        <td>Percy Jackson</td>
+        <td>Honest</td>
+        <td>Cyberpunk Edgerunners</td>
+      </tr>
+      <tr>
+        <td>Frankenstein</td>
+        <td>Immortal</td>
+        <td>Game of Thrones</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+  <h2>Code Snippet</h2>
+  <p>This code defines a Python decorator that implements the Singleton pattern, and it is applied to a class called TestClass</p>
+  <pre>def singleton(myClass):
+	instances = {}
+	def getInstance(*args, **kwargs):
+		if myClass not in instances:
+			instances[myClass] = myClass(*args, **kwargs)
+		return instances[myClass]
+	return getInstance
+
+@singleton
+class TestClass(object):
+	pass
+</pre>
+
+<a href="https://code.pieces.app/collections/python"> Link to python code snippet</a>
